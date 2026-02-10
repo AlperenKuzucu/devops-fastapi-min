@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Env files
+.env
+
+# OS / IDE
+.DS_Store
+.vscode/
+
+# GitHub Actions artifacts (optional)
+*.log
