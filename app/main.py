@@ -1,5 +1,6 @@
 from typing import Any
-from fastapi import FastAPI, Body, Depends
+
+from fastapi import Body, Depends, FastAPI
 
 from .config import Settings, get_settings
 from .version import __version__

@@ -1,6 +1,8 @@
 from fastapi.testclient import TestClient
-from app.main import app
+
 from app.config import get_settings
+from app.main import app
+
 
 def test_version_fields(monkeypatch):
     # settings cache'ini temizle ki test env'lerini alsın
